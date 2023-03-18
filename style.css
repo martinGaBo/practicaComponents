@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+  nav{
+    background-color: none;
+    
+  }
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: solid hsl(26, 100%, 55%);
+}
+h5{
+    padding-top: 6px;
+    border-radius: 10px;
+    text-align: center;
+    height: 70%;
+    width: 18%;
+    background-color: hsla(26, 100%, 55%, 0.171);
+    color:hsl(26, 100%, 55%)
+}
+.carrito{
+    border: none;
+    background: none;
+}
+li{
+    display: inline;
+    margin: 0 10px 0 0;
+ }
+ .btn-primary:hover{
+    background-color: hsla(26, 100%, 55%, 0.384)
+ }
+ .avatar{
+    border: none;
+    background: none;
+ }
+ .avatar:hover{
+    border: solid hsl(26, 100%, 55%);
+    border-radius: 80px;
+ }
+ .btn-primary{
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+ }
+ .text-color-primary{
+    color: hsl(26, 100%, 55%);
+ }
